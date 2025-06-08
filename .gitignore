@@ -1,0 +1,58 @@
+#
+data/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.data/
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (don’t track raw or output data)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.db
+*.sqlite
+*.log
+
+# Oracle client instant files (if any)
+instantclient_*/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/project files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python packaging files
+dist/
+build/
+*.egg-info/
+
+# Sensitive files (credentials, configs)
+*.env
+.env.*
+secrets.*
+config.json
+
+# Other temporary files
+*.bak
+*.tmp
+*.out
+
+# System files (Linux/Windows)
+~$*

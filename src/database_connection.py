@@ -1,9 +1,6 @@
 import oracledb
 
 
-def get_connection(user='system', password='aym', dsn='localhost/XEPDB1'):
-    """Create and return a new Oracle DB connection."""
-    return oracledb.connect(user=user, password=password, dsn=dsn)
 
 
 def create_table(conn, table_sql):
